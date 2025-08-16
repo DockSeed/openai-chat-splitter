@@ -1,16 +1,17 @@
 # 📦 openai-chat-splitter
 
 **Ein einfaches Python-Tool zum Zerlegen deines OpenAI-Datenexports**  
-Ideal für Archivierung, Analyse oder Weiterverarbeitung – ganz ohne Cloud.
+Ideal für Archivierung, Analyse oder Weiterverarbeitung – komplett offline.
 
 ---
 
-## 🇩🇪 Funktionen
+## 🧰 Funktionen
 
-- ✅ Entpackt deinen `.zip`‑Export automatisch (`input/`)
-- ✅ Erkennt `conversations.json` und weitere Dateien
-- ✅ Exportiert jeden Chat als `.json` und `.md` (`out_chats/`)
-- ✅ Nutzt klare Ordnerstruktur für spätere Weiterverarbeitung
+- Entpackt `.zip`‑Exporte automatisch (`input/`)
+- Erkennt `conversations.json` und weitere Dateien
+- Exportiert jeden Chat als `.json` und `.md` (`out_chats/`)
+- Klare Ordnerstruktur für spätere Analyse/Weiterverarbeitung
+- CLI-basiert, ohne Cloud oder Tracking
 
 ---
 
@@ -22,28 +23,8 @@ Ideal für Archivierung, Analyse oder Weiterverarbeitung – ganz ohne Cloud.
 python main.py
 ```
 
----
+## 📘 Weiterführende Dokumente
 
-# 🧠 openai-chat-splitter
+ROADMAP.md – Aktueller Stand & geplante Funktionen
 
-**A simple Python tool to split your OpenAI data export**  
-Perfect for archiving, analysis or further processing – offline and clean.
-
----
-
-## 🇬🇧 Features
-
-- ✅ Automatically unpacks your `.zip` export (`input/`)
-- ✅ Detects `conversations.json` and other export files
-- ✅ Exports each chat as `.json` and `.md` (`out_chats/`)
-- ✅ Clean folder structure for further automation
-
----
-
-## 🚀 Quickstart
-
-```bash
-# 1. Put your OpenAI export ZIP file in the input/ folder
-# 2. Run the tool
-python main.py
-```
+futureideas.md – Erweiterungen & wilde Ideen für später
