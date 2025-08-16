@@ -6,7 +6,7 @@
 
 ---
 
-## ✅ Bereits erledigt
+### ✅ Bereits erledigt
 
 - [x] Projektstruktur mit `src/`, `input/`, `out_chats/`
 - [x] Entpacken und Erkennen von OpenAI-Exporten (ZIP)
@@ -15,10 +15,14 @@
 - [x] `.gitignore` für Output-Ordner
 - [x] README mit zweisprachiger Schnellstart-Anleitung
 - [x] Public Repo auf GitHub veröffentlicht
+- [x] ZIP-Import und automatisches Entpacken im `input/`-Verzeichnis
+- [x] Laden von `conversations.json` und Anzeige der enthaltenen Einträge
+- [x] Splitten der Konversationen in einzelne `.json`- und `.md`-Dateien
+- [x] Ausgabe im `out_chats/`-Verzeichnis mit sprechenden Ordnernamen
+- [x] GitHub-Repository angelegt: [DockSeed/openai-chat-splitter](https://github.com/DockSeed/openai-chat-splitter)
+- [x] Struktur mit `src/`, `main.py`, `requirements.txt`, `.gitignore`, `README.md`
 
----
-
-## 🔜 Nächste Schritte (Geplant)
+### 🔜 Nächste Schritte (Geplant)
 
 | Thema                       | Beschreibung                                                                 |
 |----------------------------|------------------------------------------------------------------------------|
@@ -30,15 +34,14 @@
 | 🧪 Tests / Validation       | Grundlegende Tests für ZIP-Erkennung und Dateiausgabe                        |
 | 🔖 Badges im README        | Python-Version, Lizenz-Badge, evtl. Link zu Docs                             |
 
----
-
-## 🧠 Nice to Have (später)
+### 🧠 Nice to Have (später)
 
 - 🖼️ Web-GUI mit Drag-and-Drop ZIP → Anzeige der Chatliste
 - 📝 Markdown-Vorlage anpassbar (z. B. mit Datum/Format)
 - 🔍 Erweiterte Filter (z. B. nur User-Nachrichten extrahieren)
 - 🧰 Tool als Python-Paket (`pip install openai-chat-splitter`)
 - 📦 Dockerfile für einfaches Deployment
+- 🧠 GPT-Modell für kontextuelle Tag-Zuweisung (optional lokal mit `ollama`)
 
 ---
 
